@@ -1,12 +1,13 @@
-body{
+/* body{
     display: flex;
-    
-}
+    flex-direction: column;
+    line-height: 1;
+} */
 
 header{
-    padding: 30px;
+    padding: 2%;
     background-color: lemonchiffon;
-    
+    display: flex;
 }
 
 h1{

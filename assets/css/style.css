@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
     display: flex;
     flex-direction: column;
-    line-height: 1;
-} */
+    line-height: 1.7;
+}
 
 header{
     padding: 2%;

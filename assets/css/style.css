@@ -16,6 +16,7 @@ header{
     border: 5px solid grey;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header h1{

@@ -1,9 +1,17 @@
+body{
+    display: flex;
+    
+}
+
 header{
     padding: 30px;
     background-color: lemonchiffon;
+    
 }
 
 h1{
     padding: 15px;
 }
+
+
 

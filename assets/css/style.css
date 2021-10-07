@@ -6,8 +6,10 @@
 
 header{
     padding: 2%;
-    background-color: lemonchiffon;
+    background-color: silver;
+    border: 5px solid grey;
     display: flex;
+    justify-content: space-between;
 }
 
 h1{

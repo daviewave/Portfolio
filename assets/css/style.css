@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7;
+}
+
+header{
+    padding: 2%;
+    background-color: silver;
+    border: 5px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    padding: 15px;
+    font-size: 300%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 550px;
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: fantasy;
+    border: 3px solid black;
+    display: flex;
+    transform: skewY(10deg);
+    border-radius: 25px;
+    color: red;
+}
+
+
+
+
+
+

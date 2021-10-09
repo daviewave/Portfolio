@@ -11,6 +11,8 @@ body {
 
 header {
   border: 3px solid #a9a9a9;
+  background-image: url(https://www.wasatchsteel.com/wp-content/uploads/2018/05/Depositphotos_23601285_l-2015-1200x480.jpg);
+  background-size: 100%;
 }
 
 .about-me {

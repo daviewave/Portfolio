@@ -6,7 +6,8 @@ body {
 
 header {
   padding: 8px;
-  background-color: silver;
+  background-image: url(https://4lifeoutdoor.com/wp-content/uploads/2018/11/MPLS-Washer-Stainless-Steel-Background.jpg);
+  background-size: cover;
   border: 5px solid grey;
   display: flex;
   justify-content: space-between;

@@ -17,6 +17,21 @@ header {
   justify-content: flex-end;
 }
 
+header h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 6.33143px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
 .header-sub-background {
   display: flex;
   justify-content: flex-end;

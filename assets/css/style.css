@@ -13,6 +13,30 @@ header {
   border: 3px solid #a9a9a9;
   background-image: url(https://www.wasatchsteel.com/wp-content/uploads/2018/05/Depositphotos_23601285_l-2015-1200x480.jpg);
   background-size: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-sub-background {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  height: 600px;
+  background: linear-gradient(180deg, #73c4ff 20%, rgba(255, 255, 255, 0) 150%);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul a {
+  padding: 3px;
 }
 
 .about-me {

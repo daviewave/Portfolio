@@ -240,21 +240,25 @@ function createRoadmapSection() {
   $roadmapHeader.text("CONTACT INFO");
 
   //TODO: MAKE THE BODY-DIV
-  var $roadmapBodyImg = $("<div>");
+  var $roadmapBody = $("<div>");
   // $roadmapBodyImg.addClass("designing-border");
-  var $roadMapImg = $("<h1>");
 
-  $roadMapImg.attr("id", "contact-info");
-  $roadmapHeader.text("CONTACT INFO");
-  $roadMapImg.addClass("designing-border center-horizontal");
-  $roadmapBodyImg.append($roadMapImg);
+  const $roadmapPara = $("<p>");
+  $roadmapPara.text(
+    "github: daviewave\n" +
+      "email: daviewave@gmail.com\n" +
+      "phone: 617-459-5248\n" +
+      "twitter: @david_silveira_3"
+  );
+
+  $roadmapBody.append($roadmapPara);
 
   //TODO: MAKE THE CONTAINER-DIV TO STORE THE HEADER AND PARA
   var $roadmapContainerDiv = $("<div>");
   $roadmapContainerDiv.attr("id", "roadmap-container");
   $roadmapContainerDiv.addClass("sub-container");
   $roadmapContainerDiv.append($roadmapHeader);
-  $roadmapContainerDiv.append($roadmapBodyImg);
+  $roadmapContainerDiv.append($roadmapBody);
   $targetMainContainer.append($roadmapContainerDiv);
 }
 
